@@ -1,23 +1,23 @@
 # hyperledger
 
 
-    ¸ðµç ³»¿ëÀº ¾Æ·¡ ÆäÀÌÁö¸¦ µû¶ó°©´Ï´Ù
+    ëª¨ë“  ë‚´ìš©ì€ ì•„ëž˜ íŽ˜ì´ì§€ë¥¼ ë”°ë¼ê°‘ë‹ˆë‹¤
     https://hyperledger-fabric.readthedocs.io/en/latest/prereqs.html
 
 
-## test-network ¼³Ä¡
+## test-network ì„¤ì¹˜
 
 ***
 
 
-1. ¼³Ä¡ ½ºÅ©¸³Æ® ¾ò±â
+1. ì„¤ì¹˜ ìŠ¤í¬ë¦½íŠ¸ ì–»ê¸°
 
         curl -sSLO https://raw.githubusercontent.com/hyperledger/fabric/main/scripts/install-fabric.sh && chmod +x install-fabric.sh
 
 
-2. install.shÆÄÀÏ ½ÇÇà
+2. install.shíŒŒì¼ ì‹¤í–‰
     
-    ¸ðµç ½ÇÇàÀº °ü¸®ÀÚ ±ÇÇÑÀ¸·Î ½ÇÇà
+    ëª¨ë“  ì‹¤í–‰ì€ ê´€ë¦¬ìž ê¶Œí•œìœ¼ë¡œ ì‹¤í–‰
 
         sudo ./install-fabric.sh
 
@@ -25,12 +25,12 @@
     default
 
         1. hyperledger/fabric version - 2.4.4 
-        (ÃÖ¼Ò 2.3ÀÌ»ó ÇÊ¿ä)
+        (ìµœì†Œ 2.3ì´ìƒ í•„ìš”)
 
         2. Fabric CA Version - 1.5.5
 
 
-    sudo¸¦ ¾ÈºÙÈ÷´Ï±î
+    sudoë¥¼ ì•ˆë¶™ížˆë‹ˆê¹Œ
 
             curl: (92) HTTP/2 stream 0 was not closed cleanly: PROTOCOL_ERROR (err 1)
             gzip: stdin: unexpected end of file
@@ -41,7 +41,7 @@
 
             ------> 1.5.5 fabric-ca-client binary is not available to download  (Available from 1.1.0-rc1) <----
             
-    ÇØ´ç ¿¡·¯ ¹ß»ý
+    í•´ë‹¹ ì—ëŸ¬ ë°œìƒ
 
 3. 
 
@@ -77,7 +77,7 @@
 
 https://www.lesstif.com/software-architect/wsl-2-windows-subsystem-for-linux-2-89555812.html
 
-wslÆÄÀÏ¿¡ Á÷Á¢Á¢±ÙÇÏ´Â ¹æ¹ý
+wslíŒŒì¼ì— ì§ì ‘ì ‘ê·¼í•˜ëŠ” ë°©ë²•
     \\wsl$\Ubuntu-20.04\home\<user name>
 
 
